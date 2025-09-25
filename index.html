@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" defer></script>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="calculation-area box">
+                <div class="header">
+                    <h1 class="text-center">BMI Calculator</h1>
+                </div>
+                <div class="form-area">
+                    <div class="mb-3">
+                        <label for="height" class="form-label">Height (in cm)</label>
+                        <input type="text" class="form-control" id="height" placeholder="Your Height">
+                    </div>
+                    <div class="mb-3">
+                        <label for="weight" class="form-label">Weight (in kg)</label>
+                        <input type="text" class="form-control" id="weight" placeholder="Your Weight">
+                    </div>
+                    <button type="button" class="btn btn-primary" id="calculate-button">Calculate BMI</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="display-area box">
+                <div class="header">
+                    <h4 class="text-center">BMI Table: </h4>
+                    <h3 id="bmi"></h3>
+                </div>
+                <div id="bmi-table">
+                    <div class="table-rows head">
+                        <span>BMI Category</span>
+                        <span>BMI Range</span>
+                    </div>
+                    <div class="table-rows">
+                        <span>Underweight</span>
+                        <span>Below 18.5</span>
+                    </div>
+                    <div class="table-rows">
+                        <span>Normal</span>
+                        <span>18.5 - 24.9</span>
+                    </div>
+                    <div class="table-rows">
+                        <span>Overweight</span>
+                        <span>25.0 - 29.9</span>
+                    </div>
+                    <div class="table-rows">
+                        <span>Obese</span>
+                        <span>30.0 or above</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+
+</html>
