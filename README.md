@@ -17,4 +17,4 @@ A simple BMI calculator that calculates your BMI (Body Mass Index) based on your
 - Animations
 
 ## Preview
-![Preview]("./screenshot/screenshot.png")
+![Preview](./screenshot/screenshot.png)
