@@ -42,9 +42,15 @@ body{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid grey;
-    /* gap: 1rem; */
 }
 .table-rows.head{
     font-weight: bold;
     border-bottom: 2px solid grey;
+}
+
+@media (max-width: 420px){
+    .box{
+        max-width: 350px;
+        width: 100%;
+    }
 }
